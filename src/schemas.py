@@ -5,13 +5,13 @@ class User(BaseModel):
     email: EmailStr
     role: str
     password: str
-    created_at: str
 
 class Product(BaseModel):
     image_id: str
     user_id: str
     post_url: str
     caption: str
+    product_type: str
     price: int
     availability: int
     sold: int

@@ -50,7 +50,7 @@ pip install -r requirements.txt
 Create a `.env` file in the project root:
 
 ```env
-DATABASE_URL=mongodb+srv://<username>:<password>@cluster.mongodb.net
+DATABASE_URL=mongodb://localhost:27017/
 DATABASE_NAME=your_database_name
 SECRET_KEY=your_jwt_secret_key
 

@@ -1,0 +1,14 @@
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+motor==3.3.2
+pymongo==4.6.1
+dnspython==2.6.1
+python-jose==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.9
+email-validator==2.1.1
+python-dotenv==1.0.1
+imagekitio==3.0.1
+requests==2.31.0
+urllib3==1.26.18

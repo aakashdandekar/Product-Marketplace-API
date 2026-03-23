@@ -6,16 +6,13 @@ class User(BaseModel):
     role: str
     password: str
 
-class Product(BaseModel):
-    image_id: str
-    user_id: str
-    post_url: str
-    caption: str
-    product_type: str
-    price: int
-    availability: int
-    sold: int
-
 class Login(BaseModel):
     email: EmailStr
     password: str
+
+class Job(BaseModel):
+    title: str
+    description: str
+    field: str
+    pay: str
+    currency: str
